@@ -1,8 +1,0 @@
-<div class="photo-container">
-  <h3>{{ photo.title }}</h3>
-  <img
-    src="{{ photo.thumbnailUrl }}"
-    (click)="isShowBigPhoto = !isShowBigPhoto"
-  />
-  <img src="{{ photo.url }}" *ngIf="isShowBigPhoto" />
-</div>
