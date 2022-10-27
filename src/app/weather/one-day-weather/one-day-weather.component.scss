@@ -1,0 +1,30 @@
+.city {
+  font-size: 50px;
+  padding-top: 25px;
+}
+
+.wrapper {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  background-color: rgba($color: #ffffff, $alpha: 0.7);
+  padding: 10px;
+  margin-left: 35px;
+  // justify-content: space-between;
+}
+
+.temp {
+  font-size: 50px;
+}
+
+.icon {
+  width: 100px;
+}
+
+button {
+  background-color: rgb(4, 8, 75);
+  color: white;
+  margin: 20px 0px;
+  margin-left: 35px;
+}

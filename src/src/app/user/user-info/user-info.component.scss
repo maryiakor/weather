@@ -1,0 +1,22 @@
+.info-container {
+  padding: 20px;
+  .info-card {
+    box-shadow: 0 0 10px 5px blueviolet;
+    background-color: rgb(254, 239, 254);
+    padding: 20px;
+    width: 500px;
+    margin: 20px auto;
+    p {
+      margin: 10px 0;
+    }
+  }
+  button {
+    padding: 10px 20px;
+    box-shadow: 0 0 5px 2px blueviolet;
+    font-weight: 700;
+    margin: 10px auto;
+    &:hover {
+      box-shadow: 0 0 5px 2px rgb(201, 158, 242);
+    }
+  }
+}

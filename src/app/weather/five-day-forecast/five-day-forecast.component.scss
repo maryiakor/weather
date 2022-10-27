@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: larger;
+
+  .day {
+    background-color: rgba($color: #2e2a2a, $alpha: 0.1);
+    margin-right: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .time {
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-top: 10px;
+
+    div {
+      margin-bottom: 10px;
+    }
+  }
+
+  .city_day {
+    margin-right: 20px;
+  }
+
+  .day {
+    margin-top: 10px;
+  }
+
+  .data_cl {
+    padding-top: 15px;
+  }
+}

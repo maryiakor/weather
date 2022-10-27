@@ -1,0 +1,33 @@
+.example-full-width {
+  color: black;
+  font-size: larger;
+}
+
+.container {
+  // background-image: url(https://nashaplaneta.su/_bl/83/67754688.jpg);
+  // height: 100%;
+
+  h2 {
+    padding-top: 15px;
+    margin-left: 50px;
+    font-size: xx-large;
+    color: rgb(49, 45, 45);
+  }
+}
+header {
+  display: flex;
+  align-items: center;
+  width: 740px;
+  margin-left: 50px;
+
+  mat-form-field {
+    margin-right: 10px;
+  }
+
+  button {
+    background-color: rgb(4, 8, 75);
+    color: white;
+    margin-bottom: 1.34375em;
+    height: 45px;
+  }
+}

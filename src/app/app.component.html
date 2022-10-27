@@ -1,0 +1,28 @@
+<div class="container">
+  <h2>WEATHER</h2>
+  <header>
+
+    <form [formGroup]="enterCity">
+      <div>
+        <mat-form-field class="example-full-width" appearance="outline">
+          <mat-label>Enter city name</mat-label>
+          <!-- <input [(ngModel)]="cityName" matInput placeholder="" pattern="^[a-zA-Z]*$" /> -->
+          <input matInput placeholder="" (keypress)="onKeyPress($event)" formControlName="city" />
+
+
+        </mat-form-field>
+
+        <span class="error"
+          *ngIf="city?.invalid && (city?.dirty || city?.touched) && !city?.errors?.['required']">incorrect data</span>
+      </div>
+
+      <div>
+        <button mat-raised-button (click)="onSubmit()" [disabled]="!city">Show</button>
+      </div>
+    </form>
+  </header>
+
+  <app-one-day-weather *ngIf="currentWeather" [currentWeather]="currentWeather" [cityName]="cityName">
+  </app-one-day-weather>
+
+</div>

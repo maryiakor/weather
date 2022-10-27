@@ -1,0 +1,12 @@
+<div class="user-list-container">
+  <app-user-item
+    (click)="getUserById(user.id)"
+    [user]="user"
+    *ngFor="let user of users"
+  >
+  </app-user-item>
+</div>
+
+<div class="user-info-container">
+  <app-user-info *ngIf="selectedUser" [user]="selectedUser"> </app-user-info>
+</div>

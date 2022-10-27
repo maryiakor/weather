@@ -1,0 +1,18 @@
+.user-list-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  app-user-item {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 5px 2px rgb(201, 158, 242);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: rgb(254, 239, 254);
+    }
+  }
+}
